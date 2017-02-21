@@ -1,0 +1,30 @@
+<mjml>
+  <mj-head>
+    <mj-title>Discover the latest trends</mj-title>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-text font-family="sans-serif" color="#8e8b85" />
+      <mj-class name="pill" font-weight="700" color="#d5ad4b" border-radius="50" border="2px solid #d5ad4b" font-size="16px" line-height="16px" padding="8 20 20 20" inner-padding="10 75 10 75" background-color="transparent" />
+      <mj-class name="desc" align="left" font-family="Georgia" font-size="20px" color="#45495d" padding="25 5 10 10" />
+      <mj-class name="ico" font-family="Helvetica" font-size="14px" align="center" padding="0 0"/>
+    </mj-attributes>
+    <mj-style>
+      a {
+        text-decoration:none;
+      }
+      .desc {
+        color: #45495d;
+      }
+      .ico {
+        color: #8e8b85;
+      }
+      .footer {
+        color: #45495d;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,157 @@
+<mjml>
+  <mj-head>
+    <mj-title>Discover the latest trends</mj-title>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-text font-family="sans-serif" color="#8e8b85" />
+      <mj-class name="pill" font-weight="700" color="#d5ad4b" border-radius="50" border="2px solid #d5ad4b" font-size="16px" line-height="16px" padding="8 20 20 20" inner-padding="10 75 10 75" background-color="transparent" />
+      <mj-class name="desc" align="left" font-family="Georgia" font-size="20px" color="#45495d" padding="25 5 10 10" />
+      <mj-class name="ico" font-family="Helvetica" font-size="14px" align="center" padding="0 0" />
+    </mj-attributes>
+    <mj-style>
+      a { text-decoration:none; } .desc { color: #45495d; } .ico { color: #8e8b85; } .footer { color: #45495d; }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container>
+      <mj-section padding="0" background-color="#eeebe7">
+        <mj-column>
+          <mj-text padding="0 2" align="center" font-size="10px">The latest tips, trends, recipes, and more</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0" background-color="#ffffff">
+        <mj-group>
+          <mj-column>
+            <mj-image align="right" padding="40 0 0 0" width="100" href="https://thrivemarket.com/blog?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&ccode=KG6OCD3H&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru"
+              src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/blog_zpscedcgvla.jpg" alt="blog" title="blog" />
+          </mj-column>
+          <mj-column>
+            <mj-image padding="15 0 0 0" href="https://thrivemarket.com/?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&ccode=KG6OCD3H&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru"
+              src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/thrive-logo-250_zps4lonavha.jpg" title="logo" alt="logo" />
+          </mj-column>
+          <mj-column>
+            <mj-image align="left" padding="40 0 0 0" width="100" href="https://thrivemarket.com/customer/account/login/referer/aHR0cHM6Ly90aHJpdmVtYXJrZXQuY29tL2ludml0ZT9jY29kZT1LRzZPQ0QzSCZ1YWV4cHRpbWU9MTc3ODYzNzg2MiZ1YXRva2VuPTE0NjJiOTc3YzFmYTcwYjA5YjU4NWYzYTg5NDNkNzlhNzA3OWFiMzE0MzkzZmU4OTg1MmZkODNmZDA1YjYzMWUmdWlkPTUwMTk4NTAmdXRtX2NhbXBhaWduPWRheTgmdXRtX2NvbnRlbnQ9bGVhZF93ZWxjb21lJnV0bV9tZWRpdW09bGlmZWN5Y2xlJnV0bV9zb3VyY2U9c2FpbHRocnU,/"
+              src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/refer_zpsnoo1uzvu.jpg" title="refer and win" alt="refer and win" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="20">
+        <mj-column>
+          <mj-image padding="5 0 23 0" width="200px" src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/566f6a67e871e_zpskalhjefi.gif" />
+          <mj-text align="center" font-size="16px"> Your daily destination for healthy living </mj-text>
+          <mj-button padding="20 0 10 0" mj-class="pill" href="https://thrivemarket.com/blog?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0 0 20 0">
+        <mj-column>
+          <mj-divider border-width="5px" border-color="#EEEBE7" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20 10 0 10">
+        <mj-column>
+          <mj-image width="280px" href="https://thrivemarket.com/blog/foods-for-happiness?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru"
+            src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/5-foods_zps9escvg7g.jpg" />
+          <mj-text mj-class="desc"><a class="desc" href="https://thrivemarket.com/blog/foods-for-happiness?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">5 Foods to Boost Your Happiness</a></mj-text>
+          <mj-button mj-class="pill" href="https://thrivemarket.com/blog/foods-for-happiness?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image width="280px" href="https://thrivemarket.com/blog/whiten-teeth-instantly-activated-charcoal?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru"
+            src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/teeth_zpsr1sycjxi.jpg" />
+          <mj-text mj-class="desc"><a class="desc" href="https://thrivemarket.com/blog/whiten-teeth-instantly-activated-charcoal?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">Whiten Teeth Instantly with Activated Charcoal</a></mj-text>
+          <mj-button mj-class="pill" href="https://thrivemarket.com/blog/whiten-teeth-instantly-activated-charcoal?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20 10 10 10">
+        <mj-column>
+          <mj-image width="280px" href="https://thrivemarket.com/blog/amazing-beauty-benefits-avocado?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru"
+            src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/avocado_zpsbywrhdd1.jpg" />
+          <mj-text mj-class="desc"><a class="desc" href="https://thrivemarket.com/blog/amazing-beauty-benefits-avocado?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">The Amazing Beauty Benefits of Avocado</a></mj-text>
+          <mj-button mj-class="pill" href="https://thrivemarket.com/blog/amazing-beauty-benefits-avocado?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image width="280px" href="https://thrivemarket.com/blog/heal-your-stomach-depression?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru"
+            src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/sauerkraut_zpsnsogiobt.jpg" />
+          <mj-text mj-class="desc"><a class="desc" href="https://thrivemarket.com/blog/heal-your-stomach-depression?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru">Heal Your Stomach, Cure Depression?</a></mj-text>
+          <mj-button mj-class="pill" href="https://thrivemarket.com/blog/heal-your-stomach-depression?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#6d8be1" padding="15 40 10 40">
+        <mj-column width="60%">
+          <mj-text font-weight="bold" color="#ffffff" font-size="16px" padding="0 0 10 0">Get all your healthy groceries at Thrive Market!</mj-text>
+        </mj-column>
+        <mj-column width="40%">
+          <mj-button background-color="#ffffff" color="#45495d" font-weight="800" font-family="sans-serif" font-size="16px" border-radius="2px" inner-padding="15 60">Shop Now</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="30 10 0 10">
+        <mj-column>
+          <mj-image width="280px" href="https://thrivemarket.com/blog/skin-mapping-face-trying-to-tell-you?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru"
+            src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/KK_zpsnwx75fce.jpg" />
+          <mj-text mj-class="desc"><a class="desc" href="https://thrivemarket.com/blog/skin-mapping-face-trying-to-tell-you?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru">Skin Mapping: What Your Face is Trying to Tell You</a></mj-text>
+          <mj-button mj-class="pill" href="https://thrivemarket.com/blog/skin-mapping-face-trying-to-tell-you?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image width="280px" href="https://thrivemarket.com/blog/new-uses-for-coconut-oil?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru"
+            src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/coconut_zpsfwtvzchn.jpg" />
+          <mj-text mj-class="desc"><a class="desc" href="https://thrivemarket.com/blog/new-uses-for-coconut-oil?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">16 Unexpected Ways to Use Coconut Oil</a></mj-text>
+          <mj-button mj-class="pill" href="https://thrivemarket.com/blog/new-uses-for-coconut-oil?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="30 10 0 10">
+        <mj-column>
+          <mj-image width="280px" href="https://thrivemarket.com/blog/homemade-kit-kat-bars?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru"
+            src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/kit-kat_zpsjucvjdyg.png" />
+          <mj-text mj-class="desc"><a class="desc" href="https://thrivemarket.com/blog/homemade-kit-kat-bars?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">Break Me Off a Piece of That Homemade Candy Bar</a></mj-text>
+          <mj-button mj-class="pill" href="https://thrivemarket.com/blog/homemade-kit-kat-bars?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image width="280px" href="https://thrivemarket.com/blog/rainbow-chard-bacon?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru"
+            src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/bacon_zpsimkhaton.jpg" />
+          <mj-text mj-class="desc"><a href="https://thrivemarket.com/blog/rainbow-chard-bacon?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">You’ll Go Wild for This Colorful Garden Green</a></mj-text>
+          <mj-button mj-class="pill" href="https://thrivemarket.com/blog/rainbow-chard-bacon?uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&uid=5019850&utm_campaign=day8&utm_content=lead_welcome&utm_medium=lifecycle&utm_source=sailthru">Read more</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="40px 0 0 0">
+        <mj-group>
+          <mj-column width="12%">
+            <mj-divider border-width="2px" padding="10 0 0 10" />
+          </mj-column>
+          <mj-column width="75%">
+            <mj-text padding="0 0 20 0" mj-class="desc" font-family="Helvetica" align="center"><a class="desc" href="https://thrivemarket.com/blog?utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru">Want More Tips, Tricks, and Delicious Recipes?</a></mj-text>
+          </mj-column>
+          <mj-column width="13%">
+            <mj-divider border-width="2px" padding="10 10 0 0" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="5px">
+        <mj-column>
+          <mj-image src="https://img.thrivemarket.com/emails/images/img-18.jpg" href="https://thrivemarket.com/blog?utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="15px">
+        <mj-column>
+          <mj-button mj-class="pill" inner-padding="12 25" href="https://thrivemarket.com/blog?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru">Read our Blog</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="5 0">
+        <mj-column>
+          <mj-divider border-width="5px" border-color="#EEEBE7" />
+        </mj-column>
+      </mj-section>
+
+    </mj-container>
+  </mj-body>
+</mjml>

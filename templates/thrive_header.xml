@@ -1,0 +1,55 @@
+<mjml>
+  <mj-head>
+    <mj-title>Discover the latest trends</mj-title>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-text font-family="sans-serif" color="#8e8b85" />
+      <mj-class name="pill" font-weight="700" color="#d5ad4b" border-radius="50" border="2px solid #d5ad4b" font-size="16px" line-height="16px" padding="8 20 20 20" inner-padding="10 75 10 75" background-color="transparent" />
+      <mj-class name="desc" font-family="Georgia" font-size="20px" color="#45495d" padding="25 5 10 10" />
+      <mj-class name="ico" font-family="Helvetica" font-size="14px" align="center" padding="0 0" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container>
+      <mj-section padding="0" background-color="#eeebe7">
+        <mj-column>
+          <mj-text padding="0 2" align="center" font-size="10px">
+            The latest tips, trends, recipes, and more
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" background-color="#ffffff">
+        <mj-group>
+          <mj-column>
+            <mj-image align="right" padding="40 0 0 0" width="100" href="https://thrivemarket.com/blog?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&ccode=KG6OCD3H&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru"
+              src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/blog_zpscedcgvla.jpg" alt="blog" title="blog" />
+          </mj-column>
+          <mj-column>
+            <mj-image padding="15 0 0 0" href="https://thrivemarket.com/?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&ccode=KG6OCD3H&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru"
+              src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/thrive-logo-250_zps4lonavha.jpg" title="logo" alt="logo" />
+          </mj-column>
+          <mj-column>
+            <mj-image align="left" padding="40 0 0 0" width="100" href="https://thrivemarket.com/customer/account/login/referer/aHR0cHM6Ly90aHJpdmVtYXJrZXQuY29tL2ludml0ZT9jY29kZT1LRzZPQ0QzSCZ1YWV4cHRpbWU9MTc3ODYzNzg2MiZ1YXRva2VuPTE0NjJiOTc3YzFmYTcwYjA5YjU4NWYzYTg5NDNkNzlhNzA3OWFiMzE0MzkzZmU4OTg1MmZkODNmZDA1YjYzMWUmdWlkPTUwMTk4NTAmdXRtX2NhbXBhaWduPWRheTgmdXRtX2NvbnRlbnQ9bGVhZF93ZWxjb21lJnV0bV9tZWRpdW09bGlmZWN5Y2xlJnV0bV9zb3VyY2U9c2FpbHRocnU,/"
+              src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/refer_zpsnoo1uzvu.jpg" title="refer and win" alt="refer and win" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="20">
+        <mj-column>
+          <mj-image padding="5 0 23 0" width="200px" src="http://i1044.photobucket.com/albums/b447/ngarnier/Thrive%20Market/566f6a67e871e_zpskalhjefi.gif" />
+          <mj-text align="center" font-size="16px">
+            Your daily destination for healthy living
+          </mj-text>
+          <mj-button padding="20 0 10 0" mj-class="pill" href="https://thrivemarket.com/blog?uid=5019850&uaexptime=1778637862&uatoken=1462b977c1fa70b09b585f3a8943d79a7079ab314393fe89852fd83fd05b631e&utm_content=lead_welcome&utm_medium=lifecycle&utm_campaign=day8&utm_source=sailthru">
+            Read more
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 0 20 0">
+        <mj-column>
+          <mj-divider border-width="5px" border-color="#EEEBE7" />
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

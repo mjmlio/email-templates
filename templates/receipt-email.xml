@@ -1,0 +1,89 @@
+<mjml>
+  <mj-body>
+    <mj-container background-color="#fce7b4" font-size="13px">
+      <mj-section background-color="#fff" padding-bottom="20" padding-top="20">
+        <mj-column vertical-align="top" width="100%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/lhu/rwt.png" alt="" align="center" border="none" width="150" vertical-align="middle" padding-left="0" padding-right="0" padding-bottom="10" padding-top="10">
+          </mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0">
+        <mj-column vertical-align="top" width="100%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/lhu/rw6.png" alt="" align="center" border="none" vertical-align="top" width="600" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+          </mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#356cc7" padding-bottom="0" padding-top="0">
+        <mj-column width="100%">
+          <mj-text align="center" font-size="13" color="#ABCDEA" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            HELLO
+            <p style="font-size:16px; color:white">[[FirstName]]</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#356cc7" vertical-align="middle" padding-bottom="5" padding-top="0">
+        <mj-column vertical-align="middle" width="100%">
+          <mj-divider border-color="#ffffff" border-width="2px" border-style="solid" vertical-align="middle" padding-left="20" padding-right="20" padding-bottom="0" padding-top="0">
+
+          </mj-divider>
+          <mj-text align="center" color="#FFF" font-size="13" word-wrap="break-word" font-family="Helvetica" vertical-align="middle" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10"><span style="font-size:20px; font-weight:bold">Thank you very much for your purchase.</span>
+            <br/>
+            <span style="font-size:15px">Please find the receipt below.</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#568feb" padding-bottom="15" padding-top="15">
+        <mj-column>
+          <mj-text align="center" color="#FFF" font-size="15px" word-wrap="break-word" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-left="25" padding-right="25" padding-bottom="0" padding-top="20"><strong>Order Number</strong>
+          </mj-text>
+          <mj-text align="center" color="#FFF" font-size="13px" word-wrap="break-word" font-family="Helvetica" vertical-align="top" padding-left="25" padding-right="25" padding-bottom="20" padding-top="10">[[OrderNumber]]
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="center" color="#FFF" font-size="15px" word-wrap="break-word" font-family="Ubuntu, Helvetica, Arial, sans-serif" vertical-align="top" padding-left="25" padding-right="25" padding-bottom="0" padding-top="20"><strong>Order Date</strong>
+          </mj-text>
+          <mj-text align="center" color="#FFF" font-size="13px" word-wrap="break-word" font-family="Helvetica" vertical-align="top" padding-left="25" padding-right="25" padding-bottom="20" padding-top="10">[[OrderDate]]
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="center" color="#FFF" font-size="15px" word-wrap="break-word" font-family="Ubuntu, Helvetica, Arial, sans-serif" vertical-align="top" padding-left="25" padding-right="25" padding-bottom="0" padding-top="20"><strong>Total Price</strong>
+          </mj-text>
+          <mj-text align="center" color="#FFF" font-size="13px" word-wrap="break-word" font-family="Helvetica" vertical-align="top" padding-left="25" padding-right="25" padding-bottom="20" padding-top="10">[[TotalPrice]]
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#356CC7" padding-bottom="20" padding-top="20">
+        <mj-column vertical-align="top" width="50%">
+          <mj-button background-color="#ffae00" color="#FFF" font-size="14px" align="center" font-weight="bold" border="none" padding="15px 30px" border-radius="10px" href="https://mjml.io" font-family="Helvetica" padding-left="25" padding-right="25" padding-bottom="10"
+            padding-top="10">
+            Download Receipt
+          </mj-button>
+        </mj-column>
+        <mj-column vertical-align="top" width="50%">
+          <mj-button background-color="#ffae00" color="#FFF" font-size="14px" align="center" font-weight="bold" border="none" padding="15px 30px" border-radius="10px" href="https://mjml.io" font-family="Helvetica" padding-left="25" padding-right="25" padding-bottom="10"
+            padding-top="10">
+            Track My Order
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#356cc7" padding-bottom="5" padding-top="0">
+        <mj-column vertical-align="middle" width="100%">
+          <mj-divider border-color="#ffffff" border-width="2px" border-style="solid" vertical-align="middle" padding-left="20" padding-right="20" padding-bottom="0" padding-top="0">
+
+          </mj-divider>
+          <mj-text align="center" color="#FFF" font-size="15" word-wrap="break-word" font-family="Helvetica" vertical-align="middle" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">Best,
+            <br/>
+            <span style="font-size:15px">The [[CompanyName]] Team</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="0" padding-top="0">
+        <mj-column vertical-align="top" width="100%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/lhu/r07.png" alt="" align="center" border="none" width="600" container-background-color="transparent" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+
+          </mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,38 @@
+<mjml>
+  <mj-body>
+    <mj-container background-color="#15B28B">
+      <mj-section full-width="full-width">
+        <mj-column>
+          <mj-text color="#EEE" font-size="30px" font-family="roboto">Mama mia</mj-text>
+          <mj-divider border-color="#EEE"></mj-divider>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text color="#EEE" font-family="roboto" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text color="#EEE" font-family="roboto" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text color="#EEE" font-family="roboto" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text color="#EEE" font-family="roboto" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+        	<mj-button background-color="#028069">
+              More information
+          	</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
