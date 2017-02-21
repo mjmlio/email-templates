@@ -15,14 +15,14 @@
       </mj-section>
       <mj-section background-color="#ffffff" full-width="full-width" padding-bottom="0" padding-top="0">
         <mj-column vertical-align="top" width="100%">
-          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/1ll/hxo.png" alt="" align="center" border="none" image-id="17141" width="600" vertical-align="top" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/1ll/hxo.png" alt="" align="center" border="none" width="600" vertical-align="top" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
 
           </mj-image>
         </mj-column>
       </mj-section>
       <mj-section background-color="#009FE3" vertical-align="top" full-width="full-width" padding-bottom="0" padding-top="0">
         <mj-column vertical-align="top" width="50%">
-          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/1ll/h0g.png" alt="" align="center" border="none" image-id="17177" width="300" vertical-align="top" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/1ll/h0g.png" alt="" align="center" border="none" width="300" vertical-align="top" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
 
           </mj-image>
         </mj-column>
