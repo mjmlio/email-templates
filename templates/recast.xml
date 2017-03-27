@@ -27,20 +27,21 @@
         <mj-column width="100%">
           <mj-image href="https://recast.ai?ref=newsletter" src="https://cdn.recast.ai/newsletter/city-01.png" />
         </mj-column>
+      </mj-section>
+      <mj-section>
         <mj-column width="100%">
           <mj-text align="center">
             Your bimonthly intake of AI, machine learning and bots is here!
           </mj-text>
         </mj-column>
+      </mj-section>
+      <mj-section>
         <mj-column width="45%">
           <mj-text align="center" font-weight="500" padding="0" font-size="18px">
             ISSUE #18 - DECEMBER
           </mj-text>
           <mj-divider border-width="2px" border-color="#616161" />
-        </mj-column>
-        <mj-column width="100%"></mj-column>
-        <mj-column width="25%">
-          <mj-divider border-width="2px" border-color="#616161" />
+          <mj-divider border-width="2px" border-color="#616161" width="45%" />
         </mj-column>
       </mj-section>
 
@@ -54,6 +55,8 @@
             <p>Without further ado, let's dive into AI for medecine, sound recognition models and bot building!</p>
           </mj-text>
         </mj-column>
+      </mj-section>
+      <mj-section>
 
         <mj-column width="11%">
           <mj-image padding-right="0" padding-left="25px" align="left" width="70px" href="https://twitter.com/MrJustaine" src="https://cdn.recast.ai/newsletter/justine.png" />
@@ -71,6 +74,8 @@
             </p>
           </mj-text>
         </mj-column>
+      </mj-section>
+      <mj-section>
         <mj-column width="100%">
           <mj-divider border-width="1px" border-color="#E0E0E0" />
         </mj-column>
