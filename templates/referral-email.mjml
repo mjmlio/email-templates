@@ -1,0 +1,69 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-text font-family="Ubuntu, Helvetica, Arial, sans-serif" padding="0 25px" font-size="13px" />
+      <mj-section background-color="#ffffff" />
+      <mj-class name="preheader" color="#000000" font-size="11px"/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      a {
+        text-decoration: none!important; 
+        color: inherit!important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#bedae6">
+      <mj-section full-width="full-width" padding="20px 0" background-color="#bedae6">
+        <mj-column width="66.66666666666666%">
+          <mj-text mj-class="preheader">
+            [[HEADLINE]]
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33333333333333%">
+          <mj-text align="right" mj-class="preheader">
+            <a href="https://mjml.io">[[PERMALINK_LABEL]]</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-url="http://z2mx.mjt.lu/img/z2mx/b/lwo/k05.png" background-size="cover">
+        <mj-column width="100%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/lwo/k0g.png" alt="" width="210px" padding="60px 25px" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="20px" padding-top="10px">
+        <mj-column>
+          <mj-text align="center" padding="10px 25px" font-size="20px" color="#512d0b">
+            <strong>Hey {{FirstName}}!</strong>
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-family="Arial">
+            Are you enjoying our weekly newsletter?<br/>
+            Then why not share it with your friends?
+          </mj-text>
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/lwo/ks5.png" alt="" width="271px" padding="10px 0" />
+          <mj-text align="center" color="#000000" font-size="13px" font-family="Ubuntu, Helvetica, Arial, sans-serif" vertical-align="top" padding-left="25" padding-right="25" padding-bottom="0" padding-top="0">
+            <p><span style="font-size:14.666666666666666px;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong><span style="color: rgb(68, 154, 220);"><span style="font-size: 25px;">You&apos;ll get a 15% discount&#xA0;</span></span></strong></span></p><p><span style="font-size:14.666666666666666px;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong><span style="font-size: 18px;"><span style="color: rgb(68, 154, 220);">on your next order </span></span></strong></span><strong style="font-family: Arial; font-size: 14.666666666666666px; white-space: pre-wrap;"><span style="font-size: 18px;"><span style="color: rgb(68, 154, 220);">when a friend uses the code</span></span></strong></p><p><span style="font-size:14.666666666666666px;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong><span style="font-size: 18px;"><span style="color: rgb(68, 154, 220);">{{ReferalCode}}!</span></span></strong></span></p>
+          </mj-text>
+          <mj-button background-color="#8bb420" color="#FFFFFF" font-size="13px" align="center" vertical-align="top" border="none" padding="15px 30px" border-radius="0px" href="https://mjml.io" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <strong>Refer a friend now !</strong>
+          </mj-button>
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/lwo/ksr.png" alt="" width="251" vertical-align="top" padding-left="0" padding-right="0" padding-bottom="10" padding-top="10" />
+          <mj-text align="center" color="#000000" font-size="13px" font-family="Ubuntu, Helvetica, Arial, sans-serif" vertical-align="top" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            <p></p><p style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:14.666666666666666px;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Best,</span></p><span style="font-size:14.666666666666666px;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">The {{CompanyName}} Team</span><p></p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section full-width="full-width" padding-bottom="20" padding-top="20">
+        <mj-column width="100%">
+          <mj-text align="center" color="#000000" font-size="11" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-left="25" padding-right="25" padding-bottom="0" padding-top="0">
+            <p style="font-size: 11px">[[DELIVERY_INFO]]</p>
+          </mj-text>
+          <mj-text align="center" color="#000000" font-size="11" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-left="25" padding-right="25" padding-bottom="0" padding-top="0">
+            <p style="font-size: 11px"><span>   FR</span></p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,170 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text font-family="Roboto, Helvetica, Arial, sans-serif" />
+      <mj-class name="variables" color="#000000" font-size="11px" word-wrap="break-word" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-left="25" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      a {
+        text-decoration: none; 
+        color: inherit;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#dcefff" font-size="13px">
+      <mj-section full-width="full-width">
+        <mj-group>
+          <mj-column>
+            <mj-text mj-class="variables">
+              [[HEADLINE]]
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="variables" align="right">
+              <a href="https://mjml.io">[[PERMALINK_LABEL]]</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-text align="center" color="#ffffff" font-size="25px" word-wrap="break-word" font-family="Roboto, Helvetica, Arial, sans-serif" container-background-color="#00b1eb" padding="25px" line-height="30px">YOUR BOOKING DETAILS
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" background-url="http://z2mx.mjt.lu/img/z2mx/b/1nu/jsu.png" background-size="cover" padding-bottom="20" padding-top="20">
+        <mj-column>
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/1nu/jsz.png" alt="logo" align="left" border="none" width="99" padding-left="25" padding-right="25" padding-bottom="22" padding-top="22">
+          </mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="left" color="rgb(0, 177, 235)" font-size="25px" word-wrap="break-word" padding="20px 25px" font-weight="bold">
+            Hey {{FirstName}}!
+          </mj-text>
+          <mj-text color="rgb(0, 177, 235)" font-family="Arial" font-size="15px" padding-bottom="40px">
+            We&apos;re glad you&apos;ve chosen us for your next trip. Here are your travel details:
+            <br />
+            <strong>Reference: {{TravelReference}}</strong>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#DEDC00" padding="0">
+        <mj-column width="50%">
+          <mj-text mj-class="variables" color="#ffffff" font-size="15px" padding="5px 25px">
+            <p><strong>{{DepartureCity}} =&gt; {{ArrivalCity}}</strong></p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-text mj-class="variables" color="#ffffff" font-size="14px" word-wrap="break-word" padding="17px 25px">
+            {{TravelDate}}
+          </mj-text>
+
+        </mj-column>
+        <mj-column width="25%">
+          <mj-text mj-class="variables" color="#ffffff" font-size="14px" word-wrap="break-word" padding="17px 25px">
+            {{TicketPrice}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#FFFDBA" padding="0">
+        <mj-column width="33.33333333333333%">
+          <mj-text mj-class="variables" font-size="13px" padding-top="20px">
+            {{DepartureTime}}
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33333333333333%">
+          <mj-text mj-class="variables" font-size="13px" padding-top="20px">
+            {{DepartureStation}}
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33333333333333%">
+          <mj-text mj-class="variables" font-size="13px" padding-top="20px">
+            {{TrainNumber}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#FFFDBA" padding="0">
+        <mj-column width="33.33333333333333%">
+          <mj-text mj-class="variables" font-size="13px" padding-top="20px">
+            {{ArrivalTime}}
+          </mj-text>
+        </mj-column>
+        <mj-column width="66.666666666%">
+          <mj-text mj-class="variables" font-size="13px" padding-top="20px">
+            {{ArrivalStation}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#FFFDBA" padding="0">
+        <mj-column>
+          <mj-text mj-class="variables" font-size="13px" padding-top="20px">
+            Passenger: {{PassengerName}}
+          </mj-text>
+          <mj-text mj-class="variables" font-size="13px" padding="20px">
+            Coach {{CoachNumber}}, seat {{SeatNumber}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="left" color="rgb(0, 177, 235)" font-size="12px" word-wrap="break-word" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding="10px 25px">
+            [IF the Ticket is refundable] You can change or cancel your ticket before the departure date without any additional fees. Please note that changes or cancellations made on the day of departure will incur in a $10 penalty fee.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#556270" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="center" color="#ffffff" font-size="18px" word-wrap="break-word" font-family="Roboto, Helvetica, Arial, sans-serif" padding="10px">
+            <strong>You may also like...</strong>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-bottom="20" padding-top="20">
+        <mj-column width="50%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/1nu/jgj.png" alt="" align="center" border="none" width="148" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+          </mj-image>
+          <mj-text align="left" color="rgb(0, 177, 235)" font-size="12px" word-wrap="break-word" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding="25px">
+            [IF the trip last more than one night]&#xA0;
+            <p style="font-weight:bold">Do you need a hotel room in {{ArrivalCity}}?</p>
+          </mj-text>
+          <mj-button background-color="#DEDC00" color="#FFFFFF" font-size="15px" border-radius="3px" href="https://mjml.io" font-family="Arial, sans-serif" padding="0px 25px">
+            <strong>Check out our amazing deals!</strong>
+          </mj-button>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/1nu/jgk.png" alt="" align="center" border="none" width="148" padding-left="25" padding-right="25" padding-bottom="0" padding-top="0">
+
+          </mj-image>
+          <mj-text align="left" color="rgb(0, 177, 235)" font-size="12px" word-wrap="break-word" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding="25px">[ELSE IF the trip last less than one night]
+            <br/>
+            <p style="font-weight:bold">
+              Do you need a car rental in {{ArrivalCity}}?
+            </p>
+          </mj-text>
+         <mj-button background-color="#DEDC00" color="#FFFFFF" font-size="15px" border-radius="3px" href="https://mjml.io" font-family="Arial, sans-serif" padding="0px 25px">
+            <strong>Check out our amazing deals!</strong>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-text align="left" color="rgb(0, 177, 235)" font-size="15px" word-wrap="break-word" font-family="Arial, sans-serif" padding-left="25" padding-right="25" padding-bottom="10" padding-top="10">
+            Best, <br />
+            <strong>The {{CompanyName}} Team</strong>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section full-width="full-width" padding-bottom="20" padding-top="20">
+        <mj-column>
+          <mj-text mj-class="variables" align="center">[[DELIVERY_INFO]]
+          </mj-text>
+          <mj-text mj-class="variables" align="center">FR
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

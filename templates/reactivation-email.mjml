@@ -1,0 +1,135 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-class name="preheader" color="#000000" font-size="11px" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding="0" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      a { text-decoration: none; color: inherit; }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#e0f2ff">
+      <mj-section full-width="full-width" padding="10px 25px">
+        <mj-group>
+          <mj-column>
+            <mj-text mj-class="preheader">
+              <a href="https://mjml.io">[[HEADLINE]]</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="preheader" align="right">
+              <a href="https://mjml.io">[[PERMALINK_LABEL]]</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/nkt.png" alt="top border">
+          </mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#2a5cab" padding="10px 0">
+        <mj-column width="33%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/nki.png" alt="logo" width="150px" padding="10px 0">
+          </mj-image>
+        </mj-column>
+        <mj-column width="66%">
+          <mj-text align="left" color="#ffffff" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" padding="18px 0px">the only way to travel
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-top="20px">
+        <mj-column width="100%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/nkn.png" alt="tickets" width="192px" padding="10px 25px">
+          </mj-image>
+          <mj-text align="center" color="#FAB701" font-size="25px" font-family="Lato, Helvetica, Arial, sans-serif" padding="10px 25px">
+            <strong>Hey {{FirstName}}
+            <br />
+            <br />
+            It&apos;s been a long time since you last traveled with us.
+            </strong>
+          </mj-text>
+          <mj-text align="center" color="#EC652D" font-size="18px" font-family="Lato, Helvetica, Arial, sans-serif" padding="10px 30px">
+            <strong>Have a look at some of the top destinations people are booking right now!</strong>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding="20px 0">
+        <mj-column>
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/nq6.png" alt="New York" width="184px" padding="0 25px">
+          </mj-image>
+          <mj-text align="center" color="#EC652D" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" vertical-align="top" padding="20px 25px">
+            <strong>New York</strong>
+            <br />
+            <p style="font-size: 15px;color:#000000;">$399&#xA0;</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/nqh.png" alt="London" width="184px" padding="0 25px">
+          </mj-image>
+          <mj-text align="center" color="#EC652D" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" vertical-align="top" padding="20px 25px">
+            <strong>London</strong>
+            <br />
+            <p style="font-size: 15px;color:#000000;">$399&#xA0;</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/nqi.png" alt="Berlin" width="184px" padding="0 25px">
+          </mj-image>
+          <mj-text align="center" color="#EC652D" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" vertical-align="top" padding="20px 25px">
+            <strong>Berlin</strong>
+            <br />
+            <p style="font-size: 15px;color:#000000;">$399&#xA0;</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#FAB700" padding="10px">
+        <mj-column width="66%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/n7l.png" alt="Plane" align="left" width="406px" padding="5px 0">
+          </mj-image>
+          <mj-text align="left" color="#ffffff" font-size="14px" font-family="Lato, Helvetica, Arial, sans-serif" vertical-align="top" padding="0 25px">
+            {{IF LastCityTraveled exist}}
+            <br /><span style="font-size:25px; color: #EC652D; font-weight:bold; line-height:30px">Want to go back to {{LastCityTraveled}}?</span>
+            <br />
+            <br />
+            <span style="font-size:20px; font-weight:bold">Enter the code {{PromoCode}} and get a 5% discount!</span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/nru.png" alt="Last city" align="center" border="none" width="184" padding="10px 0">
+          </mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-bottom="20px" padding-top="10px">
+        <mj-column width="66%">
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/n8s.png" alt="Team" width="378" padding="10px 10px">
+          </mj-image>
+        </mj-column>
+        <mj-column vertical-align="top" width="33%">
+          <mj-text align="left" color="#EC652D" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" padding="10px 25px">Best,
+          <br /><br />
+          The {{Company}} Team
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-image src="http://z2mx.mjt.lu/img/z2mx/b/l4r/n83.png" alt="bottom border" align="center" border="none" width="600" container-background-color="transparent">
+          </mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section full-width="full-width" padding="20px">
+        <mj-column>
+          <mj-text align="center" font-size="11px" font-family="Ubuntu, Helvetica, Arial, sans-serif">
+            [[DELIVERY_INFO]]
+          </mj-text>
+          <mj-text align="center" font-size="11px" font-family="Ubuntu, Helvetica, Arial, sans-serif">
+            EN
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
