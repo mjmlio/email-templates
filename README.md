@@ -14,6 +14,9 @@ feel free to submit your own MJML template (with a `.mjml` file extension) as a 
 
 ## Generating thumbnails
 
+You can automatically generate thumbnails for the templates in the `templates` folder (requires Node v7.9.0).
+
 ```
+yarn install
 yarn thumbnails
 ```
