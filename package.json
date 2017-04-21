@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "thumbnails": "node ./generate-thumbnails"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "es6-promisify": "^5.0.0",
+    "mjml": "^3.3.0",
+    "webshot": "^0.18.0"
+  }
+}
