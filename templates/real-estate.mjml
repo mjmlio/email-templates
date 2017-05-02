@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
     <mj-title>Say hello to RealEstate</mj-title>
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Alice" />
+    <mj-font name="Alice" href="https://fonts.googleapis.com/css?family=Alice" />
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
     <mj-attributes>
       <mj-all font-family="Roboto, Helvetica, Arial, sans-serif" padding="0" />
