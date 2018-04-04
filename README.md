@@ -25,7 +25,15 @@ mjml -w ./templates/*.mjml -o ./templates/html/
 
 You can automatically generate thumbnails for the templates in the `templates` folder (requires Node v7.9.0).
 
-```
+```bash
 yarn install
 yarn thumbnails
+```
+
+## Generating HTML files
+
+You can easy generate HTML files for all template via Bash script:
+```bash
+for file in templates/* ; do ./node_modules/.bin/mjml -r $file -o $file.html ; done
+
 ```
