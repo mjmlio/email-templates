@@ -2,7 +2,7 @@ const promisify = require('es6-promisify')
 const webshot = require('webshot')
 const path = require('path')
 const fs = require('fs')
-const { mjml2html } = require('mjml')
+const mjml2html = require('mjml')
 
 const access = promisify(fs.access)
 const readDir = promisify(fs.readdir)
