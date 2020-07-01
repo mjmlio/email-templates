@@ -42,8 +42,8 @@
       </mj-column>
       <mj-column vertical-align="middle">
         <mj-spacer height="50px"></mj-spacer>
-        <mj-text font-size="18px" align="center" color="#ffffff" font-weight="100" font-style="italic" letter-spacing="1px" padding-bottom="2px" font-family="Arial" line-height="1"><b>GET YOUR ROBOT</b></mj-text>
-        <mj-text font-size="14px" align="center" color="#ffffff" font-weight="100" padding-bottom="0px" font-family="Arial" line-height="1.5">Sphero Mini fits a huge experience into a tiny robot the size of a ping pong ball. It’s fun, ok?</mj-text>
+        <mj-text font-size="18px" align="center" color="#ffffff" font-weight="100" font-style="italic" letter-spacing="1px" padding-bottom="2px" font-family="Arial" line-height="1px"><b>GET YOUR ROBOT</b></mj-text>
+        <mj-text font-size="14px" align="center" color="#ffffff" font-weight="100px" padding-bottom="0px" font-family="Arial" line-height="1.5px">Sphero Mini fits a huge experience into a tiny robot the size of a ping pong ball. It’s fun, ok?</mj-text>
         <mj-spacer height="15px"></mj-spacer>
         <mj-button font-size="16px" href="https://store.sphero.com/collections/sphero-mini" font-family="arial" background-color="#fff" color="#EE3C96" inner-padding="5px 35px" border-radius="15px"><i>BUY MINI</i></mj-button>
         <mj-spacer height="50px"></mj-spacer>
@@ -58,8 +58,8 @@
       </mj-column>
       <mj-column vertical-align="middle">
         <mj-spacer height="50px"></mj-spacer>
-        <mj-text font-size="18px" align="center" color="#ffffff" font-weight="100" font-style="italic" letter-spacing="1px" padding-bottom="2px" font-family="Arial" line-height="1"><b>GET EXTRA SHELLS</b></mj-text>
-        <mj-text font-size="14px" align="center" color="#ffffff" font-weight="100" padding-bottom="0px" font-family="Arial" line-height="1.5">Neon pink, orange, blue, green or classic Sphero white. Buy one. Or two. Or all.</mj-text>
+        <mj-text font-size="18px" align="center" color="#ffffff" font-weight="100" font-style="italic" letter-spacing="1px" padding-bottom="2px" font-family="Arial" line-height="1px"><b>GET EXTRA SHELLS</b></mj-text>
+        <mj-text font-size="14px" align="center" color="#ffffff" font-weight="100" padding-bottom="0px" font-family="Arial" line-height="1.5px">Neon pink, orange, blue, green or classic Sphero white. Buy one. Or two. Or all.</mj-text>
         <mj-spacer height="15px"></mj-spacer>
         <mj-button font-size="16px" href="https://store.sphero.com/products/sphero-mini-shells" font-family="arial" background-color="#fff" color="#00A3D9" inner-padding="5px 25px" border-radius="15px"><i>BUY SHELLS</i></mj-button>
         <mj-spacer height="50px"></mj-spacer>
