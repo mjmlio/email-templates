@@ -14,7 +14,7 @@ feel free to submit your own MJML template (with a `.mjml` file extension) as a 
 
 ## Compiling templates to HTML
 
-You can render all templates at once by using the `-w` command (just make sure to first create the folder where you want the HTML files to be created). 
+You can render all templates at once by using the `-w` command (just make sure to first create the folder where you want the HTML files to be created).
 
 ```
 mkdir templates/html
@@ -23,9 +23,15 @@ mjml -w ./templates/*.mjml -o ./templates/html/
 
 ## Generating thumbnails
 
-You can automatically generate thumbnails for the templates in the `templates` folder (requires Node v7.9.0).
+You can automatically generate thumbnails for the templates in the `templates` folder (requires Node v18.0.0 or higher).
 
 ```
 yarn install
 yarn thumbnails
+```
+
+To generate a thumbnail for a specific template:
+
+```
+yarn thumbnails -- templatename
 ```

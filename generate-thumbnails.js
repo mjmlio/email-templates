@@ -1,96 +1,90 @@
-const promisify = require('es6-promisify')
-const webshot = require('webshot')
-const path = require('path')
-const fs = require('fs')
-const mjml2html = require('mjml')
+const puppeteer = require("puppeteer");
+const path = require("path");
+const fs = require("fs").promises;
+const mjml2html = require("mjml");
 
-const access = promisify(fs.access)
-const readDir = promisify(fs.readdir)
-const readFile = promisify(fs.readFile)
-const mkdir = promisify(fs.mkdir)
+const TEMPLATES_FOLDER = path.join(__dirname, "templates");
+const THUMB_FOLDER = path.join(__dirname, "thumbnails");
 
-const TEMPLATES_FOLDER = path.join(__dirname, 'templates')
-const THUMB_FOLDER = path.join(__dirname, 'thumbnails')
+// Get template name from command line argument
+const templateToGenerate = process.argv[2];
 
-const WEBSHOT_OPTIONS = {
-  siteType: 'html',
-  screenSize: {
-    width: 700,
-  },
-  shotSize: {
-    width: 700,
-    height: 'all',
-  },
-  defaultWhiteBackground: true,
-}
-
-;(async function () {
+(async function () {
   try {
+    await fs.mkdir(THUMB_FOLDER, { recursive: true });
 
-    await isWritableOrCreate(THUMB_FOLDER)
+    console.log(">> Reading templates");
+    let templates = await fs.readdir(TEMPLATES_FOLDER);
 
-    console.log('>> Reading templates')
-    const templates = await readDir(TEMPLATES_FOLDER)
-    const templatesWithContent = await Promise.all(templates.map(readContent))
+    // Filter to specific template if provided
+    if (templateToGenerate) {
+      const filename = `${templateToGenerate}.mjml`;
+      templates = templates.filter((t) => t === filename);
+      if (templates.length === 0) {
+        throw new Error(`Template not found: ${templateToGenerate}`);
+      }
+    }
 
-    console.log('>> Generating thumbnails')
-    await templatesWithContent.reduce((promise, template) => {
-      return promise.then(() => generateThumbnail(template))
-    }, Promise.resolve())
+    const templatesWithContent = await Promise.all(templates.map(readContent));
 
-  } catch (err) { exitErr(err) }
-})()
+    const browser = await puppeteer.launch();
 
-async function isWritableOrCreate (folder) {
-  try {
-    await access(THUMB_FOLDER, fs.constants.R_OK | fs.constants.W_OK)
+    console.log(">> Generating thumbnails");
+    for (const template of templatesWithContent) {
+      await generateThumbnail(browser, template);
+    }
+
+    await browser.close();
   } catch (err) {
-    if (err.code === 'ENOENT') {
-      await mkdir(THUMB_FOLDER)
-    } else {
-      throw err
-    }
+    exitErr(err);
   }
-}
+})();
 
-async function readContent (templateName) {
-  const templatePath = path.join(TEMPLATES_FOLDER, templateName)
-  const mjml = await readFile(templatePath, { encoding: 'utf8' })
+async function readContent(templateName) {
+  const templatePath = path.join(TEMPLATES_FOLDER, templateName);
+  const mjml = await fs.readFile(templatePath, { encoding: "utf8" });
   return {
-    name: path.basename(templateName, '.mjml'),
+    name: path.basename(templateName, ".mjml"),
     mjml,
-  }
+  };
 }
 
-async function generateThumbnail (template) {
-  console.log(` > treating ${template.name}`)
-  const thumbnailName = path.join(THUMB_FOLDER, `${template.name}.jpg`)
-  const html = await getHTML(template.mjml)
-  await shot(thumbnailName, html)
-}
+async function generateThumbnail(browser, template) {
+  console.log(` > treating ${template.name}`);
+  const thumbnailName = path.join(THUMB_FOLDER, `${template.name}.jpg`);
+  const html = mjml2html(template.mjml).html;
 
-function getHTML (mjml) {
-  return new Promise((resolve, reject) => {
-    try {
-      const res = mjml2html(mjml)
-      resolve(res.html)
-    } catch (err) {
-      reject(err)
+  const page = await browser.newPage();
+  // Match old webshot settings: 700px width, full height
+  await page.setViewport({ width: 700, height: 800 });
+  // Add white background only if body doesn't already have a background style
+  let htmlWithBackground = html;
+  if (!html.includes('style="') && !html.includes("style='")) {
+    htmlWithBackground = html.replace(
+      "<body",
+      '<body style="background-color: white;"'
+    );
+  } else if (html.match(/<body[^>]*style="[^"]*"/)) {
+    // Check if background-color is already in the style attribute
+    if (!html.includes("background-color")) {
+      htmlWithBackground = html.replace(
+        /(<body[^>]*style=")([^"]*)/,
+        "$1background-color: white; $2"
+      );
     }
-  })
+  }
+  await page.setContent(htmlWithBackground);
+  await page.screenshot({
+    path: thumbnailName,
+    fullPage: true,
+    type: "jpeg",
+    omitBackground: false,
+  });
+  await page.close();
 }
 
-function shot (name, html) {
-  return new Promise((resolve, reject) => {
-    webshot(html, name, WEBSHOT_OPTIONS, (err) => {
-      if (err) { return reject(err) }
-      resolve()
-    })
-  })
-}
-
-function exitErr (err) {
-  console.log('> Something went wrong')
-  console.log(err.message || err)
-  process.exit(1)
+function exitErr(err) {
+  console.log("> Something went wrong");
+  console.log(err.message || err);
+  process.exit(1);
 }

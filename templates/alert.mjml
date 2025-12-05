@@ -1,0 +1,137 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Source Sans 3"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+3"
+    ></mj-font>
+    <mj-attributes>
+      <mj-all
+        font-family="'Source Sans 3', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="18px"
+        color="#1D3C6B"
+        line-height="26px"
+        align="center"
+        padding="0px"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style>
+      .aa-text a { text-decoration: underline; color: unset; } .aa-info {
+      border-radius: 14px; } .aa-btn td { box-shadow: inset 0 0 1px #fff; }
+      .aa-btn p, .aa-btn a { background-color: transparent !important; }
+      .aa-btn-blue:hover td { background: #0D3D85 !important; }
+      .aa-btn-red:hover td { background: #850D0D !important; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <!-- Webview tag -->
+    <mj-section background-color="transparent" padding="16px 0px 16px 0px">
+      <mj-column>
+        <mj-text
+          color="#6a7f9e"
+          font-size="14px"
+          css-class="aa-text"
+          line-height="24px"
+        >
+          {webview_text}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Calendar -->
+    <mj-section background-color="transparent" padding="0px">
+      <mj-column padding="0px">
+        <mj-image
+          padding="0px"
+          src="https://github.com/ricfreire/mautic-theme-appointmentalert/blob/main/assets/calendar.png?raw=true"
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F4F9FF" padding="30px 40px">
+      <mj-column width="100%">
+        <!-- Logo -->
+        <mj-text
+          padding="0px"
+          font-size="28px"
+          line-height="34px"
+          font-weight="600"
+          >Hello there! 👋</mj-text
+        >
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-text css-class="aa-text"
+          >Just a friendly reminder that we have an upcoming
+          appointment.</mj-text
+        >
+        <mj-spacer height="30px"></mj-spacer>
+        <!-- Appointment Info -->
+        <mj-text css-class="aa-text"><b>Date:</b> DD-MM-YYYY</mj-text>
+        <mj-spacer height="14px"></mj-spacer>
+        <mj-text css-class="aa-text"><b>Type:</b> Software Demo</mj-text>
+        <mj-spacer height="14px"></mj-spacer>
+        <mj-text css-class="aa-text"><b>Duration:</b> 30 minutes</mj-text>
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-text
+          padding="14px 10px"
+          container-background-color="#FFF8E8"
+          color="#484234"
+          css-class="aa-text aa-info"
+        >
+          Thank you for scheduling the meeting. If you need assistance before
+          the meeting, please call our support line at (000) 000-0000.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Buttons -->
+    <mj-section
+      background-color="#F4F9FF"
+      border-radius="0px 0px 30px 30px"
+      padding="0px 30px 50px 40px"
+    >
+      <mj-column width="48%">
+        <mj-button
+          href="#"
+          padding="0px"
+          border-radius="12px"
+          border="1px solid #0D3D85"
+          background-color="#4F77B4"
+          font-size="18px"
+          width="100%"
+          css-class="aa-btn aa-btn-blue"
+        >
+          Reschedule
+        </mj-button>
+      </mj-column>
+      <mj-column width="4%" padding="10px"></mj-column>
+      <mj-column width="48%">
+        <mj-button
+          href="#"
+          padding="0px"
+          border-radius="12px"
+          border="1px solid #850D0D"
+          background-color="#C75353"
+          font-size="18px"
+          width="100%"
+          css-class="aa-btn aa-btn-red"
+        >
+          Cancel
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section background-color="transparent" padding="16px 0px 40px 0px">
+      <mj-column>
+        <mj-text
+          color="#6a7f9e"
+          font-size="14px"
+          css-class="aa-text"
+          line-height="24px"
+        >
+          Crafted with love by
+          <a href="https://github.com/ricfreire">Ricardo Freire</a>.
+          Illustration by <a href="https://www.hellozea.com/">Alzea</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

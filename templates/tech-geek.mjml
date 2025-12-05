@@ -1,0 +1,325 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Manrope"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap"
+    ></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Manrope, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text
+        align="left"
+        font-weight="500"
+        letter-spacing="-0.3px"
+        font-size="16px"
+        color="#52565f"
+        line-height="26px"
+        padding="0px"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style>
+      .tg-h1 p { line-height: 40px; } .tg-text a { text-decoration: underline;
+      color: unset; } p { margin: 0px 0px 0px 0px } .tg-label { border-radius:
+      0px 0px 0px 10px } .tg-text-footer a { text-decoration: underline; color:
+      #44D8FF; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <!-- Top Spacing -->
+    <mj-section padding="0px">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <!-- Hero -->
+    <mj-section
+      padding="60px 30px"
+      background-color="#131925"
+      background-url="https://github.com/ricfreire/mautic-theme-techgeek/blob/main/assets/background-image.png?raw=true"
+      background-size="cover"
+      background-repeat="no-repeat"
+      border-radius="20px 20px 0px 0px"
+    >
+      <mj-column width="100%">
+        <mj-image
+          align="left"
+          width="160px"
+          padding="0px"
+          src="https://github.com/ricfreire/mautic-theme-techgeek/blob/main/assets/logo.png?raw=true"
+        />
+        <mj-spacer height="40px"></mj-spacer>
+        <mj-text
+          css-class="tg-h1"
+          font-size="30px"
+          color="#fff"
+          letter-spacing="0px"
+        >
+          <p>Your monthly tech news,</p>
+          <p>in your inbox.</p>
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text color="#C2C2C2" css-class="tg-text"
+          >Newsletter #01 - Month Year
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Top Article -->
+    <mj-section
+      padding="40px 30px 0px 30px"
+      background-color="#f6f6f6"
+      border-left="2px solid #e5e5e6"
+      border-right="2px solid #e5e5e6"
+    >
+      <mj-column>
+        <mj-image
+          padding="0px"
+          fluid-on-mobile="true"
+          border-radius="0px 10px 0px 0px"
+          src="https://github.com/ricfreire/mautic-theme-techgeek/blob/main/assets/article1.png?raw=true"
+        ></mj-image>
+        <mj-text
+          container-background-color="#44D8FF"
+          font-size="14px"
+          align="right"
+          color="#252C39"
+          padding="4px 8px"
+          line-height="18px"
+          css-class="tg-label"
+          >Computer</mj-text
+        >
+        <mj-text
+          font-size="22px"
+          line-height="30px"
+          color="#131925"
+          css-class="tg-text"
+          padding-bottom="14px"
+          padding-top="28px"
+          >The new Macbook, is it worth it?</mj-text
+        >
+        <mj-text css-class="tg-text" padding-bottom="28px"
+          >Discover the latest Macbook's features, performance, and price. We
+          analyze if it's a worthy upgrade for your needs.</mj-text
+        >
+        <mj-button
+          href="#"
+          align="left"
+          font-size="16px"
+          border-radius="50px"
+          padding="0px"
+          inner-padding="12px 22px"
+          background-color="#20222A"
+          >Read more
+          <span style="color: #44d8ff; margin-left: 4px">→</span></mj-button
+        >
+      </mj-column>
+    </mj-section>
+    <!-- 2Col Articles -->
+    <mj-section
+      padding="40px 30px 0px 30px"
+      background-color="#f6f6f6"
+      border-left="2px solid #e5e5e6"
+      border-right="2px solid #e5e5e6"
+    >
+      <!-- 1 -->
+      <mj-column width="48%" padding="0px 0px 40px 0px">
+        <mj-image
+          padding="0px"
+          fluid-on-mobile="true"
+          border-radius="0px 10px 0px 0px"
+          src="https://github.com/ricfreire/mautic-theme-techgeek/blob/main/assets/article2.png?raw=true"
+        ></mj-image>
+        <mj-text
+          container-background-color="#44D8FF"
+          font-size="14px"
+          align="right"
+          color="#252C39"
+          padding="4px 8px"
+          line-height="18px"
+          css-class="tg-label"
+          >Computer</mj-text
+        >
+        <mj-text
+          font-size="22px"
+          line-height="30px"
+          color="#131925"
+          css-class="tg-text"
+          padding-bottom="14px"
+          padding-top="28px"
+          >Old iMacs. Should you keep it?</mj-text
+        >
+        <mj-text css-class="tg-text" padding-bottom="28px"
+          >Considering holding onto your old iMac? We evaluate its current
+          performance and usability against newer models.</mj-text
+        >
+        <mj-button
+          href="#"
+          align="left"
+          font-size="16px"
+          border-radius="50px"
+          padding="0px"
+          inner-padding="12px 22px"
+          background-color="#20222A"
+          >Read more
+          <span style="color: #44d8ff; margin-left: 4px">→</span></mj-button
+        >
+      </mj-column>
+      <mj-column width="4%"></mj-column>
+      <!-- 2 -->
+      <mj-column width="48%" padding="0px 0px 40px 0px">
+        <mj-image
+          padding="0px"
+          fluid-on-mobile="true"
+          border-radius="0px 10px 0px 0px"
+          src="https://github.com/ricfreire/mautic-theme-techgeek/blob/main/assets/article3.png?raw=true"
+        ></mj-image>
+        <mj-text
+          container-background-color="#44D8FF"
+          font-size="14px"
+          align="right"
+          color="#252C39"
+          padding="4px 8px"
+          line-height="18px"
+          css-class="tg-label"
+          >Camera</mj-text
+        >
+        <mj-text
+          font-size="22px"
+          line-height="30px"
+          color="#131925"
+          css-class="tg-text"
+          padding-bottom="14px"
+          padding-top="28px"
+          >Yearly comparison: Canon vs Nikon.</mj-text
+        >
+        <mj-text css-class="tg-text" padding-bottom="28px"
+          >Our annual review pits Canon against Nikon, comparing image quality,
+          features, and value. Which brand comes out on top?</mj-text
+        >
+        <mj-button
+          href="#"
+          align="left"
+          font-size="16px"
+          border-radius="50px"
+          padding="0px"
+          inner-padding="12px 22px"
+          background-color="#20222A"
+          >Read more
+          <span style="color: #44d8ff; margin-left: 4px">→</span></mj-button
+        >
+      </mj-column>
+    </mj-section>
+    <!-- Secondary Articles -->
+    <mj-section
+      padding="40px 30px 20px 30px"
+      background-color="#ededee"
+      border-left="2px solid #e5e5e6"
+      border-right="2px solid #e5e5e6"
+    >
+      <mj-column>
+        <mj-text
+          font-size="26px"
+          line-height="38px"
+          color="#131925"
+          css-class="tg-text"
+          padding-bottom="34px"
+          >Top stories</mj-text
+        >
+        <!-- 1 -->
+        <mj-divider
+          padding="0px"
+          border-width="2px"
+          border-style="solid"
+          border-color="lightgrey"
+        />
+        <mj-text
+          font-size="20px"
+          line-height="28px"
+          color="#131925"
+          css-class="tg-text"
+          padding-bottom="14px"
+          padding-top="28px"
+          >The revolutionary Android brand new feature!</mj-text
+        >
+        <mj-text css-class="tg-text" padding-bottom="28px"
+          >Explore the groundbreaking feature Android has introduced. Find out
+          how it can change the way you use your smartphone.</mj-text
+        >
+        <!-- 2 -->
+        <mj-divider
+          padding="0px"
+          border-width="2px"
+          border-style="solid"
+          border-color="lightgrey"
+        />
+        <mj-text
+          font-size="20px"
+          line-height="28px"
+          color="#131925"
+          css-class="tg-text"
+          padding-bottom="14px"
+          padding-top="28px"
+          >AI-powered phone? Yes, it is a reality.</mj-text
+        >
+        <mj-text css-class="tg-text" padding-bottom="28px"
+          >AI in your pocket: We delve into the capabilities of the new
+          AI-powered phone and how it enhances your daily tasks.</mj-text
+        >
+        <!-- 3 -->
+        <mj-divider
+          padding="0px"
+          border-width="2px"
+          border-style="solid"
+          border-color="lightgrey"
+        />
+        <mj-text
+          font-size="20px"
+          line-height="28px"
+          color="#131925"
+          css-class="tg-text"
+          padding-bottom="14px"
+          padding-top="28px"
+          >The best tablets that you can buy right now.</mj-text
+        >
+        <mj-text css-class="tg-text" padding-bottom="28px"
+          >Looking for a tablet? We list the top models available, detailing
+          their specifications, performance, and best uses.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section padding="40px 30px" background-color="#131925">
+      <mj-column>
+        <mj-text
+          align="center"
+          padding="0px"
+          font-size="14px"
+          color="#fff"
+          css-class="tg-text-footer"
+          >Having trouble reading this email? Click here.</mj-text
+        >
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text
+          align="center"
+          padding="0px"
+          font-size="14px"
+          color="#fff"
+          css-class="tg-text-footer"
+          >{unsubscribe_text}</mj-text
+        >
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text
+          align="center"
+          padding="0px"
+          font-size="14px"
+          color="#fff"
+          css-class="tg-text-footer"
+          >Crafted with love by
+          <a href="https://github.com/ricfreire">Ricardo Freire</a>. Images from
+          Pexels by
+          <a href="https://www.pexels.com/pt-br/@junior-teixeira-1064069/"
+            >Junior Teixeira</a
+          >.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
