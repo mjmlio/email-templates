@@ -57,22 +57,17 @@ async function generateThumbnail(browser, template) {
   const page = await browser.newPage();
   // Match old webshot settings: 700px width, full height
   await page.setViewport({ width: 700, height: 800 });
-  // Add white background only if body doesn't already have a background style
+
+  // Only inject white background if body doesn't already have a background color
   let htmlWithBackground = html;
-  if (!html.includes('style="') && !html.includes("style='")) {
+  const bodyTag = html.match(/<body[^>]*>/);
+  if (!bodyTag || !bodyTag[0].includes("background-color")) {
     htmlWithBackground = html.replace(
-      "<body",
-      '<body style="background-color: white;"'
+      "</head>",
+      "<style>html, body { background-color: white; }</style></head>"
     );
-  } else if (html.match(/<body[^>]*style="[^"]*"/)) {
-    // Check if background-color is already in the style attribute
-    if (!html.includes("background-color")) {
-      htmlWithBackground = html.replace(
-        /(<body[^>]*style=")([^"]*)/,
-        "$1background-color: white; $2"
-      );
-    }
   }
+
   await page.setContent(htmlWithBackground);
   await page.screenshot({
     path: thumbnailName,

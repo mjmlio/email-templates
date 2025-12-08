@@ -33,5 +33,5 @@ yarn thumbnails
 To generate a thumbnail for a specific template:
 
 ```
-yarn thumbnails -- templatename
+yarn thumbnails templatename
 ```
