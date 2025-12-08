@@ -1,0 +1,269 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Abel"
+      href="https://fonts.googleapis.com/css?family=Abel"
+    ></mj-font>
+    <mj-font
+      name="Inter Tight"
+      href="https://fonts.googleapis.com/css?family=Inter+Tight"
+    ></mj-font>
+    <mj-font
+      name="Nanum"
+      href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo"
+    ></mj-font>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+    ></mj-font>
+    <mj-style> .streetexpo-text a { color: #E34500 !important; } </mj-style>
+    <mj-attributes>
+      <mj-all font-family="Inter Tight, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#0E0E0E"
+        line-height="22px"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#9D9785">
+    <!-- Webview tag -->
+    <mj-section
+      padding="14px 30px"
+      background-color="#0E0E0E"
+      border-bottom="4px solid #E9D201"
+    >
+      <mj-column width="100%">
+        <mj-text
+          align="left"
+          color="#fff"
+          font-size="12px"
+          padding="0px"
+          css-class="streetexpo-text"
+          >Having trouble reading this email? Click here.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- Hero -->
+    <mj-section padding="50px 30px" background-color="#e9e6d7">
+      <mj-column width="100%">
+        <mj-text
+          font-family="Abel, Helvetica, Arial, sans-serif"
+          font-size="40px"
+          line-height="40px"
+          color="#E34500"
+          padding="0px"
+          >//UNDERGROUND</mj-text
+        >
+        <mj-text
+          font-family="Nanum, Times, sans-serif"
+          font-size="44px"
+          line-height="40px"
+          color="#0E0E0E"
+          padding="0px"
+          >Street Art Expo</mj-text
+        >
+        <mj-spacer height="30px" />
+        <mj-text
+          align="left"
+          padding="0px"
+          font-size="16px"
+          line-height="22px"
+          color="#0E0E0E"
+          >Sponsered by</mj-text
+        >
+        <mj-spacer height="10px" />
+        <mj-image
+          align="left"
+          width="140px"
+          padding="0px"
+          src="https://github.com/ricfreire/mautic-theme-streetexpo/blob/main/assets/logo.png?raw=true"
+        />
+        <mj-spacer height="30px" />
+        <mj-text
+          align="left"
+          padding="0px"
+          font-size="16px"
+          line-height="24px"
+          color="#0E0E0E"
+          css-class="streetexpo-text"
+          >Join us for a journey through the raw and unfiltered world of street
+          art. Our Expo is a celebration of urban culture, featuring graffiti,
+          murals, and installations that push the
+          <a href="#">boundaries of creativity</a>.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- Quote -->
+    <mj-section padding="0px 30px 30px 30px" background-color="#E34500">
+      <mj-column width="100%">
+        <mj-image
+          align="left"
+          width="120px"
+          padding="0px"
+          src="https://github.com/ricfreire/mautic-theme-streetexpo/blob/main/assets/div1.png?raw=true"
+        />
+        <mj-spacer height="30px" />
+        <mj-text
+          align="left"
+          padding="0px"
+          font-size="23px"
+          line-height="32px"
+          color="#E9E6D7"
+          >Experience an urban art extravaganza like never before. Immerse in
+          creativity, culture, and innovation.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- Location -->
+    <mj-section padding="50px 30px" background-color="#e9e6d7">
+      <mj-column width="100%">
+        <mj-text
+          font-family="Abel, Helvetica, Arial, sans-serif"
+          font-size="40px"
+          line-height="40px"
+          color="#E34500"
+          padding="0px"
+          >LOCATION</mj-text
+        >
+        <mj-spacer height="30px" />
+        <mj-text
+          align="left"
+          padding="0px"
+          font-size="16px"
+          line-height="24px"
+          color="#0E0E0E"
+          css-class="streetexpo-text"
+          >The expo is set to take place in the heart of
+          <a href="#">Panama City, Panama</a>. Located at the iconic Urban
+          Canvas Gallery on the famous Graffiti Street, this venue serves as the
+          perfect backdrop for this celebration of urban expression.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- Image -->
+    <mj-section padding="0px" background-color="#e9e6d7">
+      <mj-column width="100%">
+        <mj-image
+          align="left"
+          width="600px"
+          padding="0px"
+          src="https://github.com/ricfreire/mautic-theme-streetexpo/blob/main/assets/img1.png?raw=true"
+        />
+      </mj-column>
+    </mj-section>
+    <!-- CTA -->
+    <mj-section padding="0px 30px 30px 30px" background-color="#E9D201">
+      <mj-column width="100%">
+        <mj-image
+          align="left"
+          width="300px"
+          src="https://github.com/ricfreire/mautic-theme-streetexpo/blob/main/assets/div2.png?raw=true"
+          padding="0px"
+        />
+        <mj-spacer height="20px" />
+        <mj-text
+          font-family="Abel, Helvetica, Arial, sans-serif"
+          font-size="40px"
+          line-height="40px"
+          color="#E34500"
+          padding="0px"
+          >IT'S GONNA BE WILD</mj-text
+        >
+        <mj-spacer height="30px" />
+        <mj-text
+          align="left"
+          padding="0px"
+          font-size="16px"
+          line-height="24px"
+          color="#0E0E0E"
+          css-class="streetexpo-text"
+          >Don't miss out on this epic street art event.
+          <a href="#">Reserve your tickets</a> now and gain exclusive access to
+          all the excitement. Whether you're an art enthusiast, a creative
+          spirit, or simply curious, this is an opportunity to witness the urban
+          art revolution. Get your tickets today and be part of the underground
+          art movement.</mj-text
+        >
+        <mj-spacer height="30px" />
+        <mj-button
+          align="left"
+          inner-padding="10px 50px"
+          border-radius="0px"
+          background-color="#0E0E0E"
+          padding="0px"
+          font-family="Abel"
+          font-size="16px"
+          >BUY TICKETS</mj-button
+        >
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section
+      padding="40px 30px"
+      background-color="#0E0E0E"
+      border-bottom="4px solid #E9D201"
+    >
+      <mj-column width="100%">
+        <mj-social
+          mode="horizontal"
+          icon-size="24px"
+          padding="0px"
+          inner-padding="0px 10px 0px 0px"
+          align="left"
+        >
+          <mj-social-element
+            name="facebook"
+            href="#"
+            background-color="transparent"
+          ></mj-social-element>
+          <mj-social-element
+            name="instagram"
+            href="#"
+            background-color="transparent"
+          ></mj-social-element>
+          <mj-social-element
+            name="linkedin"
+            href="#"
+            background-color="transparent"
+          ></mj-social-element>
+        </mj-social>
+        <mj-spacer height="14px" />
+        <mj-text
+          align="left"
+          padding="0px"
+          font-size="14px"
+          line-height="22px"
+          color="#fff"
+          >© Your company</mj-text
+        >
+        <mj-spacer height="30px" />
+        <mj-text
+          align="left"
+          color="#fff"
+          font-size="12px"
+          padding="0px"
+          css-class="streetexpo-text"
+        >
+          {unsubscribe_text}
+        </mj-text>
+        <mj-spacer height="14px" />
+        <mj-text
+          align="left"
+          color="#fff"
+          font-size="12px"
+          padding="0px"
+          css-class="streetexpo-text"
+        >
+          Crafted with love by
+          <a href="https://github.com/ricfreire">Ricardo Freire</a>. Images from
+          Pexels by
+          <a href="https://www.pexels.com/@molly-champion-256223/"
+            >Molly Champion</a
+          >.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
