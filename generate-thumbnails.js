@@ -14,7 +14,9 @@ const templateToGenerate = process.argv[2];
     await fs.mkdir(THUMB_FOLDER, { recursive: true });
 
     console.log(">> Reading templates");
-    let templates = await fs.readdir(TEMPLATES_FOLDER);
+    let templates = (await fs.readdir(TEMPLATES_FOLDER)).filter((entry) =>
+      entry.endsWith(".mjml")
+    );
 
     // Filter to specific template if provided
     if (templateToGenerate) {
@@ -52,7 +54,7 @@ async function readContent(templateName) {
 async function generateThumbnail(browser, template) {
   console.log(` > treating ${template.name}`);
   const thumbnailName = path.join(THUMB_FOLDER, `${template.name}.jpg`);
-  const html = mjml2html(template.mjml).html;
+  const html = (await mjml2html(template.mjml)).html;
 
   const page = await browser.newPage();
   // Match old webshot settings: 700px width, full height
