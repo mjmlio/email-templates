@@ -4,7 +4,7 @@
     "thumbnails": "node ./generate-thumbnails"
   },
   "devDependencies": {
-    "mjml": "5.0.1"
+    "mjml": "5.1.0"
   },
   "dependencies": {
     "puppeteer": "^24.32.0"
