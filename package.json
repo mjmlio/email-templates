@@ -4,7 +4,7 @@
     "thumbnails": "node ./generate-thumbnails"
   },
   "devDependencies": {
-    "mjml": "5.4.0"
+    "mjml": "5.4.1"
   },
   "dependencies": {
     "@puppeteer/browsers": "3.0.4",
@@ -14,6 +14,7 @@
     "**/js-cookie": "3.0.7",
     "js-yaml": "4.3.0",
     "**/lodash": "4.18.1",
+    "**/nopt": "9.0.0",
     "undici": "6.27.0"
   }
 }
